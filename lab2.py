@@ -41,8 +41,8 @@ def G(n):
     for i in range(1,n+1):
         x.append((10**i*(1+round(math.pi,15)*i*10**-i)-10**i)/i)
     return x
+
 g=G(20)
-import numpy
 import matplotlib.pyplot as plt
 #print("blad wzgledny: ",wzgledny(math.pi,x[1]))
 #print("blad bezwzgledny", bezwzgledny(math.pi,x[1]))
